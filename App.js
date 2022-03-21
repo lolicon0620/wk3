@@ -6,8 +6,8 @@ import Navigation from "./src/navigation";
 
 export default function App() {
   return (
-    <SafeAreaProvider>{}
-      <Navigation />{}
+    <SafeAreaProvider>{/* <SafeAreaView style={{ flex: 1 }}> */}
+      <Navigation />{/* </SafeAreaView> */}
     </SafeAreaProvider>
   );
 }
