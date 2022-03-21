@@ -8,7 +8,7 @@ import {
   Pressable,
 } from "react-native";
 
-const BookDetailScreen = ({ route: { params } }) => {
+const BookDetailS = ({ route: { params } }) => {
   const { title, author, image, star, starCount, description, price } = params;
   return (
     <ScrollView style={{ backgroundColor: "#fff" }}>
@@ -139,4 +139,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default BookDetailScreen;
+export default BookDetailS;
