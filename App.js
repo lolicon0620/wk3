@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet } from 'expo-status-bar';
+import { StyleSheet } from 'react-native';
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
 import Navigation from "./src/navigation";
