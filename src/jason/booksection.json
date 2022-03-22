@@ -1,1 +1,31 @@
-{}
+[
+    {
+      "title": "Popular Books",
+      "data": [
+        {
+          "title": "Fashionopolis",
+          "author": "Dana Thomas",
+          "image": "",
+          "description": "",
+          "price": 10.99
+        },
+        
+      ]
+    },
+    {
+      "title": "Newest",
+      "data": [
+        {
+          "title": "Yves Saint Laurent",
+          "author": "Suzy Menkes ",
+          "image": "",
+          "star": [true, true, true, true, false],
+          "starCount": "4.0",
+          "description": "",
+          "price": 46.99
+        }
+
+      ]
+    }
+  ]
+  
