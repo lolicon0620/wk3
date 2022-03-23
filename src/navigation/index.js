@@ -10,12 +10,12 @@ import {
   DrawerItemList,
 } from "@react-navigation/drawer";
 
-import BookListScreen from "../screens/BookListS";
-import BookDetailScreen from "../screens/BookDetailS";
-import WishListScreen from "../screens/WishListS";
-import MyBooksScreen from "../screens/BookshelfS";
-import AccountScreen from "../screens/AccountS";
-import SettingScreen from "../screens/SettingS";
+import BookListScreen from "../screens/BookListScreen";
+import BookDetailScreen from "../screens/BookDetailScreen";
+import WishListScreen from "../screens/WishListScreen";
+import MyBooksScreen from "../screens/MyBooksScreen";
+import AccountScreen from "../screens/AccountScreen";
+import SettingScreen from "../screens/SettingScreen";
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
