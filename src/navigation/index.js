@@ -6,7 +6,6 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import {
   createDrawerNavigator,
   DrawerContentScrollView,
-  DrawerItem,
   DrawerItemList,
 } from "@react-navigation/drawer";
 
