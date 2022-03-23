@@ -1,13 +1,13 @@
 import React from "react-native";
 import { Text, View, Image, StyleSheet, Pressable } from "react-native";
 
-const Book = ({
+const BookCard = ({
   book,
   book: { title, author, image, star },
   navigation,
 }) => {
   return (
-    <View style={styles.BookContainerStyle}>
+    <View style={styles.bookCardContainerStyle}>
       <Pressable onPress={() => navigation.navigate("Detail", book)}>
         <Image style={styles.bookImageStyle} source={{ uri: image }} />
       </Pressable>
@@ -39,7 +39,7 @@ const Book = ({
 };
 
 const styles = StyleSheet.create({
-  BookContainerStyle: {
+  bookCardContainerStyle: {
     flexDirection: "column",
     marginRight: 16,
   },
@@ -73,4 +73,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Book;
+export default BookCard;

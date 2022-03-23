@@ -1,12 +1,12 @@
 import React from "react-native";
 import { View, Text, FlatList, SectionList, StyleSheet } from "react-native";
 
-import Book from "./Book";
+import BookCard from "./BookCard";
 
 const BookList = ({ list, navigation }) => {
   // Flat Item
   const renderItem = ({ item }) => (
-    <Book book={item} navigation={navigation} />
+    <BookCard book={item} navigation={navigation} />
   );
   // Section Header
   const renderSectionHeader = ({ section: { title, data } }) => (
