@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View } from "react-native";
 
-const WishListS = ({ navigation }) => {
+const WishListScreen = ({ navigation }) => {
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <Text>I am Wishlist</Text>
@@ -9,4 +9,4 @@ const WishListS = ({ navigation }) => {
   );
 };
 
-export default WishListS;
+export default WishListScreen;

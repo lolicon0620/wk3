@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View } from "react-native";
 
-const BookshelfS = ({ navigation }) => {
+const MyBooksScreen = ({ navigation }) => {
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <Text>I am My Books</Text>
@@ -9,4 +9,4 @@ const BookshelfS = ({ navigation }) => {
   );
 };
 
-export default BookshelfS;
+export default MyBooksScreen;

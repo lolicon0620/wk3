@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View } from "react-native";
 
-const AccountS = ({ navigation }) => {
+const AccountScreen = ({ navigation }) => {
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <Text>Account</Text>
@@ -9,4 +9,4 @@ const AccountS = ({ navigation }) => {
   );
 };
 
-export default AccountS;
+export default AccountScreen;

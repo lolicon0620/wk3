@@ -4,7 +4,7 @@ import { View } from "react-native";
 import BookList from "../components/BookList";
 import sections from "../json/book_section.json";
 
-const BookListS = ({ navigation }) => {
+const BookListScreen = ({ navigation }) => {
   return (
     <View style={{ flex: 1, backgroundColor: "#fff" }}>
       <BookList list={sections} navigation={navigation} />
@@ -12,4 +12,4 @@ const BookListS = ({ navigation }) => {
   );
 };
 
-export default BookListS;
+export default BookListScreen;
