@@ -5,21 +5,21 @@
       {
         "title": "Fashionopolis",
         "author": "Dana Thomas",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/lolicon0620/wk3/master/src/img/img_book3.png",
         "description": "",
         "price":1
-      }
+      },
       {
         "title": "Chanel",
         "author": "Patrick Mauriès",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/lolicon0620/wk3/master/src/img/img_book2.png",
         "description":"",
         "price":1
       },
       {
         "title": "Calligraphy",
         "author": "June & Lucy",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/lolicon0620/wk3/master/src/img/img_book1.png",
         "description": "",
         "price":1
       }
@@ -31,7 +31,7 @@
       {
         "title": "Yves Saint Laurent",
         "author": "Suzy Menkes ",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/lolicon0620/wk3/master/src/img/img_book6.png",
         "star": [],
         "starCount": "",
         "description": "",
@@ -40,7 +40,7 @@
       {
         "title": "The Book of Signs",
         "author": "Rudolf Koch ",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/lolicon0620/wk3/master/src/img/img_book5.png",
         "star": [],
         "starCount": "",
         "description": "",
@@ -49,7 +49,7 @@
       {
         "title": "Stitched Up",
         "author": "Tansy E. Hoskins",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/lolicon0620/wk3/master/src/img/img_book4.png",
         "star": [],
         "starCount": "",
         "description": "",
