@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Popular Books",
+    "data": [
+      {
+        "title": "Fashionopolis",
+        "author": "Dana Thomas",
+        "image": "https://github.com/Huyhsu/2022_APP-Course_wk3_homework/blob/master/src/img/img_book_fashinopolis.png?raw=true",
+        "description": "We're no strangers to love",
+        "price": 10.99
+      },
+      {
+        "title": "Chanel",
+        "author": "Patrick Mauriès",
+        "image": "https://github.com/Huyhsu/2022_APP-Course_wk3_homework/blob/master/src/img/img_book_chanel.png?raw=true",
+        "description": "You know the rules and so do I",
+        "price": 20.99
+      },
+      {
+        "title": "Calligraphy",
+        "author": "June & Lucy",
+        "image": "https://github.com/Huyhsu/2022_APP-Course_wk3_homework/blob/master/src/img/img_book_calligraphy.png?raw=true",
+        "description": "A full commitment's what I'm thinking of",
+        "price": 30.99
+      }
+    ]
+  },
+  {
+    "title": "Newest",
+    "data": [
+      {
+        "title": "Yves Saint Laurent",
+        "author": "Suzy Menkes ",
+        "image": "https://github.com/Huyhsu/2022_APP-Course_wk3_homework/blob/master/src/img/img_book_ysl.png?raw=true",
+        "star": [true, true, true, true, false],
+        "starCount": "4.0",
+        "description": "A spectacular visual journey through 40 years of haute couture from one of the best-known and most trend-setting brands in fashion.",
+        "price": 46.99
+      },
+      {
+        "title": "The Book of Signs",
+        "author": "Rudolf Koch ",
+        "image": "https://github.com/Huyhsu/2022_APP-Course_wk3_homework/blob/master/src/img/img_book_tbos.png?raw=true",
+        "star": [true, true, true, false, false],
+        "starCount": "3.0",
+        "description": "You wouldn't get this from any other guy",
+        "price": 87.95
+      },
+      {
+        "title": "Stitched Up",
+        "author": "Tansy E. Hoskins",
+        "image": "https://github.com/Huyhsu/2022_APP-Course_wk3_homework/blob/master/src/img/img_book_stitchedup.png?raw=true",
+        "star": [true, true, true, false, false],
+        "starCount": "3.0",
+        "description": "I just wanna tell you how I'm feeling",
+        "price": 37.27
+      }
+    ]
+  }
+]

@@ -6,15 +6,16 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import {
   createDrawerNavigator,
   DrawerContentScrollView,
+  DrawerItem,
   DrawerItemList,
 } from "@react-navigation/drawer";
 
-import BookListScreen from "../screens/BookListS";
-import BookDetailScreen from "../screens/BookDetailS";
-import WishListScreen from "../screens/WishListS";
-import MyBooksScreen from "../screens/BookshelfS";
-import AccountScreen from "../screens/AccountS";
-import SettingScreen from "../screens/SettingS";
+import BookListScreen from "../screens/BookListScreen";
+import BookDetailScreen from "../screens/BookDetailScreen";
+import WishListScreen from "../screens/WishListScreen";
+import MyBooksScreen from "../screens/MyBooksScreen";
+import AccountScreen from "../screens/AccountScreen";
+import SettingScreen from "../screens/SettingScreen";
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -30,7 +31,29 @@ const Navigation = () => {
   );
 };
 
+// Old Stack
+// const StackNavigator = () => {
+//   return (
+//     <Stack.Navigator>
+//       <Stack.Screen
+//         name="Home"
+//         component={BookListScreen}
+//         options={{
+//           headerShown: false,
+//         }}
+//       />
+//       <Stack.Screen
+//         name="Detail"
+//         component={BookDetailScreen}
+//         options={({ route }) => ({
+//           headerShown: false,
+//         })}
+//       />
+//     </Stack.Navigator>
+//   );
+// };
 
+// MyDrawerContent (Avatar + UserName + Divider + MyDrawer)
 const MyDrawerContent = (props) => {
   return (
     <DrawerContentScrollView>
@@ -109,9 +132,9 @@ const MyDrawer = () => {
           drawerIcon: ({ focused }) => (
             <>
               {focused ? (
-                <Image source={require("../icon/icon_head_actived.png")} />
+                <Image source={require("../icon/icon_account_actived.png")} />
               ) : (
-                <Image source={require("../icon/icon_head.png")} />
+                <Image source={require("../icon/icon_account.png")} />
               )}
             </>
           ),
@@ -126,9 +149,9 @@ const MyDrawer = () => {
           drawerIcon: ({ focused }) => (
             <>
               {focused ? (
-                <Image source={require("../icon/icon_gear_actived.png")} />
+                <Image source={require("../icon/icon_settings_actived.png")} />
               ) : (
-                <Image source={require("../icon/icon_gear.png")} />
+                <Image source={require("../icon/icon_settings.png")} />
               )}
             </>
           ),
@@ -188,10 +211,10 @@ const HomeTab = () => {
             <>
               {focused ? (
                 <Image
-                  source={require("../icon/icon_wish_actived.png")}
+                  source={require("../icon/icon_nav_bookmark_actived.png")}
                 />
               ) : (
-                <Image source={require("../icon/icon_wish.png")} />
+                <Image source={require("../icon/icon_nav_bookmark.png")} />
               )}
             </>
           ),
@@ -206,9 +229,9 @@ const HomeTab = () => {
           tabBarIcon: ({ focused }) => (
             <>
               {focused ? (
-                <Image source={require("../icon/icon_book_actived.png")} />
+                <Image source={require("../icon/icon_mybook_actived.png")} />
               ) : (
-                <Image source={require("../icon/icon_book.png")} />
+                <Image source={require("../icon/icon_mybook.png")} />
               )}
             </>
           ),
@@ -240,7 +263,7 @@ const HomeStack = ({ navigation }) => {
             </Pressable>
           ),
           headerRight: () => (
-            <Pressable onPress={() => alert("make you understand")}>
+            <Pressable onPress={() => alert("Gotta make you understand")}>
               <Image source={require("../icon/icon_search.png")} />
             </Pressable>
           ),
@@ -310,7 +333,7 @@ const MyBooksStack = ({ navigation }) => {
             </Pressable>
           ),
           headerRight: () => (
-            <Pressable onPress={() => alert("Searching")}>
+            <Pressable onPress={() => alert("Searching for Something")}>
               <Image source={require("../icon/icon_search.png")} />
             </Pressable>
           ),
@@ -337,7 +360,7 @@ const AccountStack = ({ navigation }) => {
             </Pressable>
           ),
           headerRight: () => (
-            <Pressable onPress={() => alert("Searching")}>
+            <Pressable onPress={() => alert("Searching for Something")}>
               <Image source={require("../icon/icon_search.png")} />
             </Pressable>
           ),
