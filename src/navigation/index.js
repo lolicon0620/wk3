@@ -37,7 +37,7 @@ const MyDrawerContent = (props) => {
     <DrawerContentScrollView>
       <Image
         style={{ width: 48, height: 48, marginTop: 40, marginLeft: 16 }}
-        source={require("../img/img_avatar2.png")}
+        source={require("../img/img_avatar.png")}
       />
       <Text
         style={{
@@ -48,7 +48,7 @@ const MyDrawerContent = (props) => {
           marginVertical: 16,
         }}
       >
-        桓醬
+        May
       </Text>
       <View
         style={{ width: 300, height: 1, backgroundColor: "#EDEDEF" }}
