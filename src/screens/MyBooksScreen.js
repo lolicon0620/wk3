@@ -4,7 +4,7 @@ import { Text, View } from "react-native";
 const MyBooksScreen = ({ navigation }) => {
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>I am My Books</Text>
+      <Text>點爽的啦</Text>
     </View>
   );
 };

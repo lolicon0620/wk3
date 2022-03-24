@@ -3,25 +3,26 @@
     "title": "Popular Books",
     "data": [
       {
-        "title": "Fashionopolis",
-        "author": "Dana Thomas",
-        "image": "https://raw.githubusercontent.com/lolicon0620/wk3/master/src/img/img_book3.png",
-        "description": "",
-        "price":1
-      },
-      {
         "title": "Chanel",
         "author": "Patrick Mauriès",
         "image": "https://raw.githubusercontent.com/lolicon0620/wk3/master/src/img/img_book2.png",
-        "description":"",
-        "price":1
+        "description":"這跟香奈爾不知道啥關係",
+        "price":0
       },
       {
-        "title": "Calligraphy",
-        "author": "June & Lucy",
-        "image": "https://raw.githubusercontent.com/lolicon0620/wk3/master/src/img/img_book1.png",
-        "description": "",
-        "price":1
+        "title": "Fashionopolis",
+        "author": "Dana Thomas",
+        "image": "https://raw.githubusercontent.com/lolicon0620/wk3/master/src/img/img_book3.png",
+        "description": "這本鐵定潮",
+        "price":0.99
+      },
+
+      {
+        "title": "The Book of Signs",
+        "author": "Rudolf Koch ",
+        "image": "https://raw.githubusercontent.com/lolicon0620/wk3/master/src/img/img_book5.png",
+        "description": "是符號不是簽名喔:)",
+        "price":3.99
       }
     ]
   },
@@ -32,28 +33,28 @@
         "title": "Yves Saint Laurent",
         "author": "Suzy Menkes ",
         "image": "https://raw.githubusercontent.com/lolicon0620/wk3/master/src/img/img_book6.png",
-        "star": [],
-        "starCount": "",
-        "description": "",
-        "price":1
+        "star": [true,false,true,false,true],
+        "starCount": "3.0",
+        "description": "這裡是敘述欄",
+        "price":5.99
       },
       {
-        "title": "The Book of Signs",
-        "author": "Rudolf Koch ",
-        "image": "https://raw.githubusercontent.com/lolicon0620/wk3/master/src/img/img_book5.png",
-        "star": [],
-        "starCount": "",
-        "description": "",
-        "price":1
+        "title": "Calligraphy",
+        "author": "June & Lucy",
+        "image": "https://raw.githubusercontent.com/lolicon0620/wk3/master/src/img/img_book1.png",
+        "star": [false,true,false,true,false],
+        "starCount": "2.0",
+        "description": "沒看過不清楚",
+        "price":1.99
       },
       {
         "title": "Stitched Up",
         "author": "Tansy E. Hoskins",
         "image": "https://raw.githubusercontent.com/lolicon0620/wk3/master/src/img/img_book4.png",
-        "star": [],
-        "starCount": "",
-        "description": "",
-        "price": 1
+        "star": [true,true,true,true,true],
+        "starCount": "5.0",
+        "description": "天價神書",
+        "price": 100.00
       }
     ]
   }

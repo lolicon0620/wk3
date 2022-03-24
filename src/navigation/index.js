@@ -37,7 +37,7 @@ const MyDrawerContent = (props) => {
     <DrawerContentScrollView>
       <Image
         style={{ width: 48, height: 48, marginTop: 40, marginLeft: 16 }}
-        source={require("../img/img_avatar.png")}
+        source={require("../img/img_avatar2.png")}
       />
       <Text
         style={{
@@ -48,7 +48,7 @@ const MyDrawerContent = (props) => {
           marginVertical: 16,
         }}
       >
-        May
+        桓醬
       </Text>
       <View
         style={{ width: 300, height: 1, backgroundColor: "#EDEDEF" }}
@@ -311,7 +311,7 @@ const MyBooksStack = ({ navigation }) => {
             </Pressable>
           ),
           headerRight: () => (
-            <Pressable onPress={() => alert("Searching")}>
+            <Pressable onPress={() => alert("沒有功能啦哈哈")}>
               <Image source={require("../icon/icon_search.png")} />
             </Pressable>
           ),
